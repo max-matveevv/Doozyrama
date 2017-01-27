@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50EF5A771E3B52010061077C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A761E3B52010061077C /* AppDelegate.swift */; };
+		50EF5A791E3B52010061077C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A781E3B52010061077C /* ViewController.swift */; };
+		50EF5A7C1E3B52010061077C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7A1E3B52010061077C /* Main.storyboard */; };
+		50EF5A7E1E3B52010061077C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7D1E3B52010061077C /* Assets.xcassets */; };
+		50EF5A811E3B52010061077C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */; };
+		50EF5A8C1E3B52010061077C /* DoozyramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */; };
+		50EF5A971E3B52010061077C /* DoozyramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A961E3B52010061077C /* DoozyramaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50EF5A881E3B52010061077C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EF5A6B1E3B52010061077C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EF5A721E3B52010061077C;
+			remoteInfo = Doozyrama;
+		};
+		50EF5A931E3B52010061077C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EF5A6B1E3B52010061077C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EF5A721E3B52010061077C;
+			remoteInfo = Doozyrama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50EF5A731E3B52010061077C /* Doozyrama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doozyrama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF5A761E3B52010061077C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50EF5A781E3B52010061077C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50EF5A7B1E3B52010061077C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50EF5A7D1E3B52010061077C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EF5A801E3B52010061077C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50EF5A821E3B52010061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EF5A871E3B52010061077C /* DoozyramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoozyramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoozyramaTests.swift; sourceTree = "<group>"; };
+		50EF5A8D1E3B52010061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoozyramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF5A961E3B52010061077C /* DoozyramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoozyramaUITests.swift; sourceTree = "<group>"; };
+		50EF5A981E3B52020061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EF5A701E3B52010061077C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A841E3B52010061077C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A8F1E3B52010061077C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50EF5A6A1E3B52010061077C = {
+			isa = PBXGroup;
+			children = (
+				50EF5A751E3B52010061077C /* Doozyrama */,
+				50EF5A8A1E3B52010061077C /* DoozyramaTests */,
+				50EF5A951E3B52010061077C /* DoozyramaUITests */,
+				50EF5A741E3B52010061077C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50EF5A741E3B52010061077C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EF5A731E3B52010061077C /* Doozyrama.app */,
+				50EF5A871E3B52010061077C /* DoozyramaTests.xctest */,
+				50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EF5A751E3B52010061077C /* Doozyrama */ = {
+			isa = PBXGroup;
+			children = (
+				50EF5A761E3B52010061077C /* AppDelegate.swift */,
+				50EF5A781E3B52010061077C /* ViewController.swift */,
+				50EF5A7A1E3B52010061077C /* Main.storyboard */,
+				50EF5A7D1E3B52010061077C /* Assets.xcassets */,
+				50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */,
+				50EF5A821E3B52010061077C /* Info.plist */,
+			);
+			path = Doozyrama;
+			sourceTree = "<group>";
+		};
+		50EF5A8A1E3B52010061077C /* DoozyramaTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */,
+				50EF5A8D1E3B52010061077C /* Info.plist */,
+			);
+			path = DoozyramaTests;
+			sourceTree = "<group>";
+		};
+		50EF5A951E3B52010061077C /* DoozyramaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50EF5A961E3B52010061077C /* DoozyramaUITests.swift */,
+				50EF5A981E3B52020061077C /* Info.plist */,
+			);
+			path = DoozyramaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EF5A721E3B52010061077C /* Doozyrama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EF5A9B1E3B52020061077C /* Build configuration list for PBXNativeTarget "Doozyrama" */;
+			buildPhases = (
+				50EF5A6F1E3B52010061077C /* Sources */,
+				50EF5A701E3B52010061077C /* Frameworks */,
+				50EF5A711E3B52010061077C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doozyrama;
+			productName = Doozyrama;
+			productReference = 50EF5A731E3B52010061077C /* Doozyrama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50EF5A861E3B52010061077C /* DoozyramaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EF5A9E1E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaTests" */;
+			buildPhases = (
+				50EF5A831E3B52010061077C /* Sources */,
+				50EF5A841E3B52010061077C /* Frameworks */,
+				50EF5A851E3B52010061077C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EF5A891E3B52010061077C /* PBXTargetDependency */,
+			);
+			name = DoozyramaTests;
+			productName = DoozyramaTests;
+			productReference = 50EF5A871E3B52010061077C /* DoozyramaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EF5A911E3B52010061077C /* DoozyramaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EF5AA11E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaUITests" */;
+			buildPhases = (
+				50EF5A8E1E3B52010061077C /* Sources */,
+				50EF5A8F1E3B52010061077C /* Frameworks */,
+				50EF5A901E3B52010061077C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EF5A941E3B52010061077C /* PBXTargetDependency */,
+			);
+			name = DoozyramaUITests;
+			productName = DoozyramaUITests;
+			productReference = 50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EF5A6B1E3B52010061077C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					50EF5A721E3B52010061077C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					50EF5A861E3B52010061077C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50EF5A721E3B52010061077C;
+					};
+					50EF5A911E3B52010061077C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50EF5A721E3B52010061077C;
+					};
+				};
+			};
+			buildConfigurationList = 50EF5A6E1E3B52010061077C /* Build configuration list for PBXProject "Doozyrama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50EF5A6A1E3B52010061077C;
+			productRefGroup = 50EF5A741E3B52010061077C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EF5A721E3B52010061077C /* Doozyrama */,
+				50EF5A861E3B52010061077C /* DoozyramaTests */,
+				50EF5A911E3B52010061077C /* DoozyramaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EF5A711E3B52010061077C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EF5A811E3B52010061077C /* LaunchScreen.storyboard in Resources */,
+				50EF5A7E1E3B52010061077C /* Assets.xcassets in Resources */,
+				50EF5A7C1E3B52010061077C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A851E3B52010061077C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A901E3B52010061077C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EF5A6F1E3B52010061077C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EF5A791E3B52010061077C /* ViewController.swift in Sources */,
+				50EF5A771E3B52010061077C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A831E3B52010061077C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EF5A8C1E3B52010061077C /* DoozyramaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EF5A8E1E3B52010061077C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EF5A971E3B52010061077C /* DoozyramaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EF5A891E3B52010061077C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EF5A721E3B52010061077C /* Doozyrama */;
+			targetProxy = 50EF5A881E3B52010061077C /* PBXContainerItemProxy */;
+		};
+		50EF5A941E3B52010061077C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EF5A721E3B52010061077C /* Doozyrama */;
+			targetProxy = 50EF5A931E3B52010061077C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50EF5A7A1E3B52010061077C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EF5A7B1E3B52010061077C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EF5A801E3B52010061077C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50EF5A991E3B52020061077C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50EF5A9A1E3B52020061077C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50EF5A9C1E3B52020061077C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Doozyrama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Doozyrama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50EF5A9D1E3B52020061077C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Doozyrama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Doozyrama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50EF5A9F1E3B52020061077C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoozyramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doozyrama.app/Doozyrama";
+			};
+			name = Debug;
+		};
+		50EF5AA01E3B52020061077C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoozyramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doozyrama.app/Doozyrama";
+			};
+			name = Release;
+		};
+		50EF5AA21E3B52020061077C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DoozyramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Doozyrama;
+			};
+			name = Debug;
+		};
+		50EF5AA31E3B52020061077C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DoozyramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Doozyrama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EF5A6E1E3B52010061077C /* Build configuration list for PBXProject "Doozyrama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EF5A991E3B52020061077C /* Debug */,
+				50EF5A9A1E3B52020061077C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EF5A9B1E3B52020061077C /* Build configuration list for PBXNativeTarget "Doozyrama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EF5A9C1E3B52020061077C /* Debug */,
+				50EF5A9D1E3B52020061077C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50EF5A9E1E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EF5A9F1E3B52020061077C /* Debug */,
+				50EF5AA01E3B52020061077C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50EF5AA11E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EF5AA21E3B52020061077C /* Debug */,
+				50EF5AA31E3B52020061077C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50EF5A6B1E3B52010061077C /* Project object */;
+}
