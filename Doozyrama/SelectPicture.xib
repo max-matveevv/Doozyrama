@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateProfileCell" customModule="Doozyrama" customModuleProvider="target">
+            <connections>
+                <outlet property="selectPicture" destination="Key-VO-ppJ" id="xKu-5l-0Zo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="70" id="Key-VO-ppJ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Key-VO-ppJ" id="zq6-Oy-IRp">
+                <frame key="frameInset" width="375" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="NJI-Yp-8fb">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="NJI-Yp-8fb" secondAttribute="height" multiplier="1:1" id="OKa-1W-JsI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a picture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajR-VQ-QR2">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="36-Punkt" translatesAutoresizingMaskIntoConstraints="NO" id="SpY-no-KdJ">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="SpY-no-KdJ" secondAttribute="height" multiplier="2:3" id="eQT-tq-Jbg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="SpY-no-KdJ" secondAttribute="trailing" constant="0.5" id="10H-OZ-prQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ajR-VQ-QR2" secondAttribute="bottom" constant="16" id="56G-L8-944"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="NJI-Yp-8fb" secondAttribute="bottom" constant="4" id="IFr-OQ-ZJZ"/>
+                    <constraint firstItem="SpY-no-KdJ" firstAttribute="leading" secondItem="ajR-VQ-QR2" secondAttribute="trailing" constant="175" id="OnG-v4-WLc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="SpY-no-KdJ" secondAttribute="bottom" constant="18.5" id="Qvb-7N-TKT"/>
+                    <constraint firstItem="SpY-no-KdJ" firstAttribute="top" secondItem="zq6-Oy-IRp" secondAttribute="topMargin" constant="19" id="kra-VO-VJ5"/>
+                    <constraint firstItem="ajR-VQ-QR2" firstAttribute="top" secondItem="zq6-Oy-IRp" secondAttribute="topMargin" constant="16" id="oUC-aE-OQH"/>
+                    <constraint firstItem="ajR-VQ-QR2" firstAttribute="leading" secondItem="NJI-Yp-8fb" secondAttribute="trailing" constant="8" id="q3q-A1-gXO"/>
+                    <constraint firstItem="NJI-Yp-8fb" firstAttribute="top" secondItem="zq6-Oy-IRp" secondAttribute="topMargin" constant="4" id="tZl-ma-BUz"/>
+                    <constraint firstItem="NJI-Yp-8fb" firstAttribute="leading" secondItem="zq6-Oy-IRp" secondAttribute="leadingMargin" id="zZm-Jd-KQF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="44.5" y="95"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="36-Punkt" width="16" height="25"/>
+        <image name="Avatar" width="80" height="80"/>
+    </resources>
+</document>

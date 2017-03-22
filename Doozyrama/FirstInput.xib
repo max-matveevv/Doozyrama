@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="Eq8-j9-0R3" customClass="FirstInput" customModule="Doozyrama" customModuleProvider="target">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="cCe-aD-9Gh"/>
+                <viewControllerLayoutGuide type="bottom" id="JN7-Tx-3MR"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="gFT-QX-ZL6">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cj1-A5-NAD">
+                        <subviews>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="w8E-rY-4TY">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w8E-rY-4TY" id="dHj-eK-UQz">
+                                    <frame key="frameInset" width="343" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FJN-KC-zmn"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcn-py-QSH">
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1x-JT-mpi">
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4T-4y-Tqa"/>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="topMargin" secondItem="t4T-4y-Tqa" secondAttribute="top" id="7FH-gd-nVq"/>
+                                        <constraint firstItem="FJN-KC-zmn" firstAttribute="leading" secondItem="dHj-eK-UQz" secondAttribute="leading" constant="10" id="7eX-do-JGS"/>
+                                        <constraint firstItem="FJN-KC-zmn" firstAttribute="top" secondItem="dHj-eK-UQz" secondAttribute="top" constant="-1" id="KGr-rQ-Mgz"/>
+                                        <constraint firstItem="vcn-py-QSH" firstAttribute="leading" secondItem="FJN-KC-zmn" secondAttribute="trailing" constant="10" id="RqL-Mj-6jS"/>
+                                        <constraint firstItem="t4T-4y-Tqa" firstAttribute="leading" secondItem="FJN-KC-zmn" secondAttribute="trailing" constant="250" id="X3b-1y-Gat"/>
+                                        <constraint firstItem="Q1x-JT-mpi" firstAttribute="bottom" secondItem="FJN-KC-zmn" secondAttribute="bottom" id="XH3-8o-zqD"/>
+                                        <constraint firstItem="vcn-py-QSH" firstAttribute="top" secondItem="FJN-KC-zmn" secondAttribute="top" id="mwv-4u-6I6"/>
+                                        <constraint firstAttribute="bottom" secondItem="FJN-KC-zmn" secondAttribute="bottom" id="snU-c0-ReW"/>
+                                        <constraint firstItem="Q1x-JT-mpi" firstAttribute="leading" secondItem="FJN-KC-zmn" secondAttribute="trailing" constant="10" id="vax-Jg-Vny"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vcn-py-QSH" secondAttribute="trailing" constant="234" id="1JF-5q-ayz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q1x-JT-mpi" secondAttribute="trailing" constant="168.5" id="1ah-r6-cgF"/>
+                                </constraints>
+                            </tableViewCell>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4212369621" green="0.86381036040000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="w8E-rY-4TY" secondAttribute="trailing" id="1rA-r8-Uef"/>
+                            <constraint firstItem="w8E-rY-4TY" firstAttribute="leading" secondItem="Cj1-A5-NAD" secondAttribute="leading" id="Jjy-WG-kAI"/>
+                            <constraint firstItem="w8E-rY-4TY" firstAttribute="top" secondItem="Cj1-A5-NAD" secondAttribute="top" id="piA-gq-SZs"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite your friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmb-uD-n73">
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcX-qt-Ab9">
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                        <state key="normal" title="Let's go">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.4212369621" green="0.86381036040000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Nmb-uD-n73" secondAttribute="trailing" constant="94" id="7nv-oy-YXx"/>
+                    <constraint firstItem="Cj1-A5-NAD" firstAttribute="top" secondItem="Nmb-uD-n73" secondAttribute="bottom" constant="21" id="EAe-5P-YDw"/>
+                    <constraint firstItem="WcX-qt-Ab9" firstAttribute="leading" secondItem="gFT-QX-ZL6" secondAttribute="leadingMargin" constant="142" id="On6-a7-bD8"/>
+                    <constraint firstItem="WcX-qt-Ab9" firstAttribute="top" secondItem="Cj1-A5-NAD" secondAttribute="bottom" constant="8" id="UN3-Re-oMD"/>
+                    <constraint firstItem="Nmb-uD-n73" firstAttribute="leading" secondItem="gFT-QX-ZL6" secondAttribute="leadingMargin" constant="94" id="kDJ-KC-Dgw"/>
+                    <constraint firstItem="Nmb-uD-n73" firstAttribute="top" secondItem="cCe-aD-9Gh" secondAttribute="bottom" constant="8" id="o3n-Te-KVt"/>
+                    <constraint firstItem="JN7-Tx-3MR" firstAttribute="top" secondItem="WcX-qt-Ab9" secondAttribute="bottom" constant="12" id="qBv-TB-KfE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Cj1-A5-NAD" secondAttribute="trailing" id="rFI-8L-x5e"/>
+                    <constraint firstItem="Cj1-A5-NAD" firstAttribute="leading" secondItem="gFT-QX-ZL6" secondAttribute="leadingMargin" id="sWs-Wl-pMN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WcX-qt-Ab9" secondAttribute="trailing" constant="142" id="ySR-Qc-BGW"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="cellPersonalInfo" destination="w8E-rY-4TY" id="ETp-ex-BPK"/>
+                <outlet property="goButton" destination="WcX-qt-Ab9" id="aRF-Ss-jf2"/>
+                <outlet property="imageHuman" destination="FJN-KC-zmn" id="ZPm-ht-nwN"/>
+                <outlet property="inviteButton" destination="t4T-4y-Tqa" id="Mzz-pe-uOK"/>
+                <outlet property="nameHuman" destination="vcn-py-QSH" id="hcr-eA-9mz"/>
+                <outlet property="phoneNumberHuman" destination="Q1x-JT-mpi" id="iWG-1t-HMR"/>
+            </connections>
+            <point key="canvasLocation" x="68.5" y="51.5"/>
+        </viewController>
+    </objects>
+</document>

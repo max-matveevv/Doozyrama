@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyFollowers" customModule="Doozyrama" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonFollowers" destination="GUp-Ov-g0S" id="6Gy-ac-6Yy"/>
+                <outlet property="countStars" destination="GUp-Ov-g0S" id="eq6-Yl-awx"/>
+                <outlet property="imageFriend" destination="dQe-9L-v9h" id="Rji-yq-Cu7"/>
+                <outlet property="nameFriend" destination="T96-AI-7wy" id="QCA-cJ-PRT"/>
+                <outlet property="searchBar" destination="bWB-9g-1ve" id="9kz-HF-Hgi"/>
+                <outlet property="view" destination="gql-pP-HTb" id="lSE-7k-ZNJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gql-pP-HTb">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcF-20-nin">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98v-iX-Z28">
+                            <subviews>
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="bWB-9g-1ve">
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" translatesAutoresizingMaskIntoConstraints="NO" id="hZN-Di-cMB">
+                                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hZN-Di-cMB" id="d7h-ur-ez4">
+                                        <frame key="frameInset" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dQe-9L-v9h">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="dQe-9L-v9h" secondAttribute="height" multiplier="1:1" id="UDy-p5-HRD"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Friend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T96-AI-7wy">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14-Balls-contact" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-dt-fRc">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Usa-dt-fRc" secondAttribute="height" multiplier="1:1" id="pty-L2-Kbi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUp-Ov-g0S">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFJ-rQ-pV8"/>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dQe-9L-v9h" firstAttribute="top" secondItem="d7h-ur-ez4" secondAttribute="topMargin" constant="1" id="E5s-Oi-kGG"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="dQe-9L-v9h" secondAttribute="bottom" constant="2" id="a5T-6X-1RG"/>
+                                            <constraint firstItem="tFJ-rQ-pV8" firstAttribute="leading" secondItem="T96-AI-7wy" secondAttribute="trailing" id="cfF-ci-JY0"/>
+                                            <constraint firstItem="GUp-Ov-g0S" firstAttribute="leading" secondItem="Usa-dt-fRc" secondAttribute="trailing" constant="8" id="hac-eg-2AY"/>
+                                            <constraint firstItem="tFJ-rQ-pV8" firstAttribute="leading" secondItem="GUp-Ov-g0S" secondAttribute="trailing" constant="159" id="mFv-GT-whn"/>
+                                            <constraint firstItem="T96-AI-7wy" firstAttribute="leading" secondItem="Usa-dt-fRc" secondAttribute="leading" id="pQL-xT-ClM"/>
+                                            <constraint firstItem="GUp-Ov-g0S" firstAttribute="top" secondItem="T96-AI-7wy" secondAttribute="bottom" constant="-4" id="rdu-h7-drg"/>
+                                            <constraint firstItem="Usa-dt-fRc" firstAttribute="top" secondItem="T96-AI-7wy" secondAttribute="bottom" constant="-1" id="u1K-Sl-eAU"/>
+                                            <constraint firstItem="dQe-9L-v9h" firstAttribute="leading" secondItem="d7h-ur-ez4" secondAttribute="leadingMargin" constant="2" id="vbg-q2-InW"/>
+                                        </constraints>
+                                    </tableViewCellContentView>
+                                    <constraints>
+                                        <constraint firstItem="T96-AI-7wy" firstAttribute="top" secondItem="hZN-Di-cMB" secondAttribute="top" constant="10" id="6du-Aj-sA1"/>
+                                        <constraint firstAttribute="bottom" secondItem="Usa-dt-fRc" secondAttribute="bottom" constant="15" id="XAQ-0c-gWm"/>
+                                        <constraint firstAttribute="bottom" secondItem="tFJ-rQ-pV8" secondAttribute="bottom" constant="15" id="dTn-U2-GeI"/>
+                                        <constraint firstAttribute="trailing" secondItem="tFJ-rQ-pV8" secondAttribute="trailing" constant="15" id="enF-hj-VCF"/>
+                                        <constraint firstItem="tFJ-rQ-pV8" firstAttribute="leading" secondItem="hZN-Di-cMB" secondAttribute="leading" constant="330" id="fiy-wC-8aV"/>
+                                        <constraint firstItem="tFJ-rQ-pV8" firstAttribute="top" secondItem="hZN-Di-cMB" secondAttribute="top" constant="15" id="hjS-xP-juS"/>
+                                        <constraint firstAttribute="bottom" secondItem="GUp-Ov-g0S" secondAttribute="bottom" constant="12" id="vjM-T0-CtK"/>
+                                    </constraints>
+                                </tableViewCell>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="hZN-Di-cMB" firstAttribute="leading" secondItem="98v-iX-Z28" secondAttribute="leading" id="2S7-m5-mJB"/>
+                                <constraint firstAttribute="trailing" secondItem="hZN-Di-cMB" secondAttribute="trailing" id="8We-6b-AUc"/>
+                                <constraint firstAttribute="trailing" secondItem="bWB-9g-1ve" secondAttribute="trailing" id="BOP-Vw-1SD"/>
+                                <constraint firstItem="hZN-Di-cMB" firstAttribute="top" secondItem="98v-iX-Z28" secondAttribute="top" constant="44" id="Vn0-o7-oEd"/>
+                                <constraint firstAttribute="bottom" secondItem="hZN-Di-cMB" secondAttribute="bottom" constant="513" id="eHl-Yc-JfQ"/>
+                                <constraint firstItem="bWB-9g-1ve" firstAttribute="leading" secondItem="98v-iX-Z28" secondAttribute="leading" id="lOq-cf-Prb"/>
+                                <constraint firstItem="bWB-9g-1ve" firstAttribute="top" secondItem="98v-iX-Z28" secondAttribute="top" id="qsA-NB-K17"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.41960784309999999" green="0.86274509799999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="98v-iX-Z28" firstAttribute="top" secondItem="bcF-20-nin" secondAttribute="top" constant="50" id="BgF-kE-I3W"/>
+                        <constraint firstAttribute="bottom" secondItem="98v-iX-Z28" secondAttribute="bottom" id="aP3-mu-uVR"/>
+                        <constraint firstAttribute="trailing" secondItem="98v-iX-Z28" secondAttribute="trailing" id="anL-Ly-Hgf"/>
+                        <constraint firstItem="98v-iX-Z28" firstAttribute="leading" secondItem="bcF-20-nin" secondAttribute="leading" id="gNW-XM-11a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bcF-20-nin" firstAttribute="leading" secondItem="gql-pP-HTb" secondAttribute="leading" id="Ldq-Kx-uTt"/>
+                <constraint firstItem="bcF-20-nin" firstAttribute="top" secondItem="gql-pP-HTb" secondAttribute="top" id="cgC-ZG-iaA"/>
+                <constraint firstAttribute="bottom" secondItem="bcF-20-nin" secondAttribute="bottom" id="hQL-xb-tyq"/>
+                <constraint firstAttribute="trailing" secondItem="bcF-20-nin" secondAttribute="trailing" id="y4C-gn-jmW"/>
+            </constraints>
+            <point key="canvasLocation" x="41.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="14-Balls-contact" width="16" height="16"/>
+    </resources>
+</document>

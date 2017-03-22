@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Doozyrama
 //
-//  Created by Max on 27.01.17.
-//  Copyright © 2017 Max. All rights reserved.
+//  Created by Mikhail on 27.01.17.
+//  Copyright © 2017 Mikhail. All rights reserved.
 //
 
 import UIKit
@@ -16,8 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        initializeWindow()
+        
         return true
     }
+    
+    private func initializeWindow() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let navigation = Navigation(rootViewController: StartScreen())
+        window?.rootViewController = navigation
+        window?.makeKeyAndVisible()
+    }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

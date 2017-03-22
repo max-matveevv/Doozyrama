@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartScreen" customModule="Doozyrama" customModuleProvider="target">
+            <connections>
+                <outlet property="beginButton" destination="oeP-fm-51A" id="sgL-c5-jzf"/>
+                <outlet property="constraintWidth" destination="cfO-F5-axj" id="Q3g-3d-OAw"/>
+                <outlet property="createButton" destination="NIF-YP-2PJ" id="urT-pQ-qD8"/>
+                <outlet property="firstNumber" destination="2lE-tT-42C" id="LDw-vA-OC6"/>
+                <outlet property="newView" destination="4p7-0s-lD3" id="PpK-Zc-oEA"/>
+                <outlet property="phoneNumberTextField" destination="tek-E3-bYq" id="sqw-gf-rJM"/>
+                <outlet property="secretCodeTextField" destination="XRM-Ms-2e7" id="zmn-lb-jkI"/>
+                <outlet property="sendMessage" destination="IcR-Iy-p3N" id="Mun-KC-R47"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Nnh-4D-dHh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4p7-0s-lD3">
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XRM-Ms-2e7" customClass="TextField" customModule="Doozyrama" customModuleProvider="target">
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeP-fm-51A">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="2QX-8R-A5j"/>
+                            </constraints>
+                            <color key="tintColor" red="0.3852539062" green="0.72224934900000004" blue="0.97121853300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Let's Begin">
+                                <color key="titleColor" red="0.33725490196078434" green="0.6887860894203186" blue="0.79202616214752197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tek-E3-bYq" customClass="TextField" customModule="Doozyrama" customModuleProvider="target">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="300" id="cfO-F5-axj"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8xg-wk-nRG"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lE-tT-42C">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="3Ut-ty-zTV"/>
+                            </constraints>
+                            <color key="tintColor" red="0.3852539062" green="0.72224934900000004" blue="0.97121853300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.33725490196078434" green="0.6887860894203186" blue="0.79202616214752197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="selectCountry" destination="-1" eventType="touchUpInside" id="qOk-d6-hMr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcR-Iy-p3N">
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIF-YP-2PJ">
+                            <frame key="frameInset" minY="115" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="createProfileSelect" destination="-1" eventType="touchUpInside" id="T7O-HF-LXQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="8xg-wk-nRG" firstAttribute="top" secondItem="4p7-0s-lD3" secondAttribute="top" id="0li-UI-j1i"/>
+                        <constraint firstAttribute="trailing" secondItem="IcR-Iy-p3N" secondAttribute="trailing" constant="8" id="2EG-J7-YqT"/>
+                        <constraint firstItem="8xg-wk-nRG" firstAttribute="centerX" secondItem="4p7-0s-lD3" secondAttribute="centerX" id="8fD-lw-bIU"/>
+                        <constraint firstItem="tek-E3-bYq" firstAttribute="top" secondItem="8xg-wk-nRG" secondAttribute="bottom" constant="40" id="C3B-Sc-Dak"/>
+                        <constraint firstItem="IcR-Iy-p3N" firstAttribute="centerY" secondItem="2lE-tT-42C" secondAttribute="centerY" id="JMR-M3-3im"/>
+                        <constraint firstItem="XRM-Ms-2e7" firstAttribute="top" secondItem="tek-E3-bYq" secondAttribute="bottom" constant="30" id="OlS-bn-sTG"/>
+                        <constraint firstItem="oeP-fm-51A" firstAttribute="centerX" secondItem="4p7-0s-lD3" secondAttribute="centerX" id="P4q-GP-sMP"/>
+                        <constraint firstAttribute="bottom" secondItem="oeP-fm-51A" secondAttribute="bottom" id="RFh-wT-IhR"/>
+                        <constraint firstItem="XRM-Ms-2e7" firstAttribute="trailing" secondItem="tek-E3-bYq" secondAttribute="trailing" id="Tc0-Zq-A9A"/>
+                        <constraint firstItem="oeP-fm-51A" firstAttribute="top" secondItem="XRM-Ms-2e7" secondAttribute="bottom" constant="35" id="Tkj-BR-TDK"/>
+                        <constraint firstItem="2lE-tT-42C" firstAttribute="leading" secondItem="4p7-0s-lD3" secondAttribute="leading" id="hOR-9r-bEc"/>
+                        <constraint firstItem="2lE-tT-42C" firstAttribute="bottom" secondItem="tek-E3-bYq" secondAttribute="bottom" id="nN7-h2-CWl"/>
+                        <constraint firstItem="tek-E3-bYq" firstAttribute="leading" secondItem="4p7-0s-lD3" secondAttribute="leading" id="q3K-Wr-A0g"/>
+                        <constraint firstAttribute="trailing" secondItem="tek-E3-bYq" secondAttribute="trailing" id="qbG-Cb-ftI"/>
+                        <constraint firstItem="XRM-Ms-2e7" firstAttribute="leading" secondItem="tek-E3-bYq" secondAttribute="leading" id="tYi-7U-DWy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.41960784313725491" green="0.86274509803921573" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4p7-0s-lD3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="o39-Jz-WpS"/>
+                <constraint firstItem="4p7-0s-lD3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ydT-pz-DG2"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="161" height="28"/>
+    </resources>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="o98-uO-uRU">
+            <objects>
+                <tableViewController id="WKJ-ZX-iM0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tbb-hw-zQb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="7lV-l5-pEW">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" red="0.41960784309999999" green="0.86274509799999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </textAttributes>
+                            <items>
+                                <navigationItem title="Choose your country" id="y5g-BO-9mx">
+                                    <barButtonItem key="leftBarButtonItem" title="Back" id="4aD-mS-mh7"/>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EFu-lB-Tm9">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EFu-lB-Tm9" id="ONQ-CY-iaC">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Z9v-09-P6V">
+                                            <textInputTraits key="textInputTraits"/>
+                                        </searchBar>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Z9v-09-P6V" firstAttribute="leading" secondItem="ONQ-CY-iaC" secondAttribute="leading" id="1jM-RH-BCg"/>
+                                        <constraint firstAttribute="trailing" secondItem="Z9v-09-P6V" secondAttribute="trailing" id="67b-4V-YuP"/>
+                                        <constraint firstAttribute="bottom" secondItem="Z9v-09-P6V" secondAttribute="bottom" id="Zfh-bH-TxG"/>
+                                        <constraint firstItem="Z9v-09-P6V" firstAttribute="top" secondItem="ONQ-CY-iaC" secondAttribute="top" id="hAN-HJ-i9d"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="I0y-Dc-IXR">
+                                <rect key="frame" x="0.0" y="116" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I0y-Dc-IXR" id="pU8-BS-OXU">
+                                    <frame key="frameInset" width="375" height="64"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bgr-Kt-ciU"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Code of the country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z17-Xa-Vz0">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9h-RR-qXy">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Z17-Xa-Vz0" firstAttribute="leading" secondItem="bgr-Kt-ciU" secondAttribute="trailing" constant="8" id="63r-R8-p2B"/>
+                                        <constraint firstItem="l9h-RR-qXy" firstAttribute="leading" secondItem="bgr-Kt-ciU" secondAttribute="trailing" constant="8" id="6WR-3Q-v3L"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="bgr-Kt-ciU" secondAttribute="leading" id="CLo-aT-4pa"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="l9h-RR-qXy" secondAttribute="trailing" constant="193" id="O9c-q9-i8M"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Z17-Xa-Vz0" secondAttribute="trailing" constant="148" id="Rbs-Rd-Cx9"/>
+                                        <constraint firstItem="Z17-Xa-Vz0" firstAttribute="top" secondItem="l9h-RR-qXy" secondAttribute="bottom" id="dYJ-dg-l6K"/>
+                                        <constraint firstItem="bgr-Kt-ciU" firstAttribute="top" secondItem="pU8-BS-OXU" secondAttribute="top" constant="7" id="f4b-Mu-pog"/>
+                                        <constraint firstAttribute="bottom" secondItem="bgr-Kt-ciU" secondAttribute="bottom" constant="7" id="jvW-3h-jxe"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Z17-Xa-Vz0" secondAttribute="bottom" constant="3" id="uyV-0h-QVG"/>
+                                        <constraint firstItem="l9h-RR-qXy" firstAttribute="top" secondItem="pU8-BS-OXU" secondAttribute="topMargin" constant="3" id="yJF-KN-Iv5"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="WKJ-ZX-iM0" id="gjv-BY-MLL"/>
+                            <outlet property="delegate" destination="WKJ-ZX-iM0" id="qpW-PD-Abo"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mm1-bd-bGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144.80000000000001" y="173.16341829085459"/>
+        </scene>
+    </scenes>
+</document>

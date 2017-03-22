@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateProfileCell">
+            <connections>
+                <outlet property="view" destination="sT7-nb-Zf7" id="Vzd-Si-jHC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="84" id="sT7-nb-Zf7">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sT7-nb-Zf7" id="6fV-1Q-3Dn">
+                <frame key="frameInset" width="375" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwH-E9-vtj">
+                        <color key="backgroundColor" red="0.76462966200000004" green="0.76475924250000005" blue="0.76461249590000002" alpha="0.22099850169999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <attributedString key="attributedText">
+                            <fragment>
+                                <string key="content">Want to receive gifts for birthdays and other holidays? Do you want to help us to find for you the interesting places and events? Fill in additional information</string>
+                                <attributes>
+                                    <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacingBefore="9" firstLineHeadIndent="8" headIndent="8" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="FwH-E9-vtj" firstAttribute="leading" secondItem="sT7-nb-Zf7" secondAttribute="leading" id="895-MS-GbB"/>
+                <constraint firstAttribute="trailing" secondItem="FwH-E9-vtj" secondAttribute="trailing" id="SOV-p6-bjv"/>
+                <constraint firstAttribute="bottom" secondItem="FwH-E9-vtj" secondAttribute="bottom" id="V4C-hN-3Oy"/>
+                <constraint firstItem="FwH-E9-vtj" firstAttribute="top" secondItem="sT7-nb-Zf7" secondAttribute="top" id="nXu-qg-6Rg"/>
+            </constraints>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,64 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50EF5A771E3B52010061077C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A761E3B52010061077C /* AppDelegate.swift */; };
-		50EF5A791E3B52010061077C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A781E3B52010061077C /* ViewController.swift */; };
-		50EF5A7C1E3B52010061077C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7A1E3B52010061077C /* Main.storyboard */; };
-		50EF5A7E1E3B52010061077C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7D1E3B52010061077C /* Assets.xcassets */; };
-		50EF5A811E3B52010061077C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */; };
-		50EF5A8C1E3B52010061077C /* DoozyramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */; };
-		50EF5A971E3B52010061077C /* DoozyramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF5A961E3B52010061077C /* DoozyramaUITests.swift */; };
+		500602F71E40DC20001057AF /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500602F61E40DC20001057AF /* CreateProfile.swift */; };
+		500D06F51E43AA9400C03870 /* InviteFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D06F41E43AA9400C03870 /* InviteFriends.swift */; };
+		501DDF901E4A09F6003BF0D2 /* ActivitiesNearby.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501DDF8F1E4A09F6003BF0D2 /* ActivitiesNearby.xib */; };
+		501DDF921E4A0A10003BF0D2 /* ActivitiesNearby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501DDF911E4A0A10003BF0D2 /* ActivitiesNearby.swift */; };
+		505123261E4B6EC9008228A0 /* YourGender.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505123251E4B6EC9008228A0 /* YourGender.xib */; };
+		505123281E4B73CB008228A0 /* SelectCountry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505123271E4B73CB008228A0 /* SelectCountry.xib */; };
+		5051232A1E4B7712008228A0 /* MyInterests.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505123291E4B7712008228A0 /* MyInterests.xib */; };
+		5051232D1E4F6C09008228A0 /* ActivitiesContacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5051232C1E4F6C09008228A0 /* ActivitiesContacts.xib */; };
+		505123301E506C4B008228A0 /* ActivitiesContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051232F1E506C4B008228A0 /* ActivitiesContacts.swift */; };
+		505123321E506FA7008228A0 /* HeroFriend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505123311E506FA7008228A0 /* HeroFriend.xib */; };
+		505123341E50771C008228A0 /* HeroFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505123331E50771C008228A0 /* HeroFriend.swift */; };
+		505123381E5369C3008228A0 /* MyFriendsInvite.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505123371E5369C3008228A0 /* MyFriendsInvite.xib */; };
+		5051233A1E536F25008228A0 /* MyFriendsInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505123391E536F25008228A0 /* MyFriendsInvite.swift */; };
+		5051233C1E53740D008228A0 /* MySubscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5051233B1E53740D008228A0 /* MySubscription.xib */; };
+		5051233E1E5374C3008228A0 /* MySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051233D1E5374C3008228A0 /* MySubscription.swift */; };
+		505123401E537666008228A0 /* MyFollowers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5051233F1E537666008228A0 /* MyFollowers.xib */; };
+		505123421E5376EC008228A0 /* MyFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505123411E5376EC008228A0 /* MyFollowers.swift */; };
+		506616C11E69464400D1F297 /* CreateProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506616C01E69464400D1F297 /* CreateProfileCell.swift */; };
+		50915BDF1E43B78A004AF735 /* SelectCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50915BDE1E43B78A004AF735 /* SelectCountry.swift */; };
+		50915BE11E43B7BF004AF735 /* YourGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50915BE01E43B7BF004AF735 /* YourGender.swift */; };
+		50915BE31E43B7EA004AF735 /* MyInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50915BE21E43B7EA004AF735 /* MyInterests.swift */; };
+		50ACB7291E47A784009D2271 /* InviteFriends.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50ACB7281E47A784009D2271 /* InviteFriends.xib */; };
+		50BC3DF61E59DE0300094668 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC3DF51E59DE0300094668 /* Colors.swift */; };
+		50BC3DF91E59DF1600094668 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC3DF81E59DF1600094668 /* UIColorExtensions.swift */; };
+		50BC3E021E59E5C700094668 /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E011E59E5C700094668 /* NameCell.xib */; };
+		50BC3E061E59E86300094668 /* AboutYourself.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E051E59E86300094668 /* AboutYourself.xib */; };
+		50BC3E081E59E8F200094668 /* MyInterestsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E071E59E8F200094668 /* MyInterestsCell.xib */; };
+		50BC3E0A1E59E92500094668 /* AddInterests.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E091E59E92500094668 /* AddInterests.xib */; };
+		50BC3E0C1E59EA1F00094668 /* InformationCreateProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E0B1E59EA1F00094668 /* InformationCreateProfile.xib */; };
+		50BC3E0E1E59EAC100094668 /* YourGenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E0D1E59EAC100094668 /* YourGenderCell.xib */; };
+		50BC3E101E59EB4300094668 /* YourBirthdayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC3E0F1E59EB4300094668 /* YourBirthdayCell.xib */; };
+		50ED03171E7D4DE20021EABB /* SelectPicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50ED03161E7D4DE20021EABB /* SelectPicture.xib */; };
+		50ED03191E81715B0021EABB /* CreateProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50ED03181E81715B0021EABB /* CreateProfile.xib */; };
+		744AC9851E48ECCB0031DBAE /* AchievementsScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744AC9841E48ECCB0031DBAE /* AchievementsScreen.xib */; };
+		744AC9871E48ECD90031DBAE /* AchievementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744AC9861E48ECD90031DBAE /* AchievementsScreen.swift */; };
+		74977A731E40E26E00E32247 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74977A721E40E26E00E32247 /* TextField.swift */; };
+		74977A761E40E65300E32247 /* KeyboardShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74977A751E40E65300E32247 /* KeyboardShift.swift */; };
+		749A2E871E3B60F200BBCF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A2E861E3B60F200BBCF97 /* AppDelegate.swift */; };
+		749A2E891E3B60F200BBCF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A2E881E3B60F200BBCF97 /* ViewController.swift */; };
+		749A2E8C1E3B60F200BBCF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A2E8A1E3B60F200BBCF97 /* Main.storyboard */; };
+		749A2E8E1E3B60F200BBCF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A2E8D1E3B60F200BBCF97 /* Assets.xcassets */; };
+		749A2E911E3B60F200BBCF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A2E8F1E3B60F200BBCF97 /* LaunchScreen.storyboard */; };
+		749A2E9A1E3B644200BBCF97 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A2E991E3B644200BBCF97 /* Navigation.swift */; };
+		749A2E9C1E3B656700BBCF97 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A2E9B1E3B656700BBCF97 /* StartScreen.swift */; };
+		749A2E9E1E3B658000BBCF97 /* StartScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749A2E9D1E3B658000BBCF97 /* StartScreen.xib */; };
+		74ED83641E44D6360024CA99 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED83631E44D6360024CA99 /* TabBarController.swift */; };
+		74ED83661E474B4E0024CA99 /* MapScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ED83651E474B4E0024CA99 /* MapScreen.xib */; };
+		74ED83681E474F2B0024CA99 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED83671E474F2B0024CA99 /* MapScreen.swift */; };
+		74ED836A1E4758390024CA99 /* Notifications.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ED83691E4758390024CA99 /* Notifications.xib */; };
+		74ED836C1E475AD40024CA99 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED836B1E475AD40024CA99 /* Notifications.swift */; };
+		74ED836E1E475D5A0024CA99 /* MeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED836D1E475D5A0024CA99 /* MeScreen.swift */; };
+		74ED83701E475D680024CA99 /* MeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ED836F1E475D680024CA99 /* MeScreen.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		50EF5A881E3B52010061077C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50EF5A6B1E3B52010061077C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50EF5A721E3B52010061077C;
-			remoteInfo = Doozyrama;
-		};
-		50EF5A931E3B52010061077C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50EF5A6B1E3B52010061077C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50EF5A721E3B52010061077C;
-			remoteInfo = Doozyrama;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		50EF5A731E3B52010061077C /* Doozyrama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doozyrama.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EF5A761E3B52010061077C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50EF5A781E3B52010061077C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50EF5A7B1E3B52010061077C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50EF5A7D1E3B52010061077C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50EF5A801E3B52010061077C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		50EF5A821E3B52010061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50EF5A871E3B52010061077C /* DoozyramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoozyramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoozyramaTests.swift; sourceTree = "<group>"; };
-		50EF5A8D1E3B52010061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoozyramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EF5A961E3B52010061077C /* DoozyramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoozyramaUITests.swift; sourceTree = "<group>"; };
-		50EF5A981E3B52020061077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500602F61E40DC20001057AF /* CreateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		500D06F41E43AA9400C03870 /* InviteFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriends.swift; sourceTree = "<group>"; };
+		501DDF8F1E4A09F6003BF0D2 /* ActivitiesNearby.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesNearby.xib; sourceTree = "<group>"; };
+		501DDF911E4A0A10003BF0D2 /* ActivitiesNearby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesNearby.swift; sourceTree = "<group>"; };
+		505123251E4B6EC9008228A0 /* YourGender.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YourGender.xib; sourceTree = "<group>"; };
+		505123271E4B73CB008228A0 /* SelectCountry.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectCountry.xib; sourceTree = "<group>"; };
+		505123291E4B7712008228A0 /* MyInterests.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInterests.xib; sourceTree = "<group>"; };
+		5051232C1E4F6C09008228A0 /* ActivitiesContacts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesContacts.xib; sourceTree = "<group>"; };
+		5051232F1E506C4B008228A0 /* ActivitiesContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesContacts.swift; sourceTree = "<group>"; };
+		505123311E506FA7008228A0 /* HeroFriend.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroFriend.xib; sourceTree = "<group>"; };
+		505123331E50771C008228A0 /* HeroFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroFriend.swift; sourceTree = "<group>"; };
+		505123371E5369C3008228A0 /* MyFriendsInvite.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFriendsInvite.xib; sourceTree = "<group>"; };
+		505123391E536F25008228A0 /* MyFriendsInvite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFriendsInvite.swift; sourceTree = "<group>"; };
+		5051233B1E53740D008228A0 /* MySubscription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MySubscription.xib; sourceTree = "<group>"; };
+		5051233D1E5374C3008228A0 /* MySubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySubscription.swift; sourceTree = "<group>"; };
+		5051233F1E537666008228A0 /* MyFollowers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFollowers.xib; sourceTree = "<group>"; };
+		505123411E5376EC008228A0 /* MyFollowers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFollowers.swift; sourceTree = "<group>"; };
+		506616C01E69464400D1F297 /* CreateProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileCell.swift; sourceTree = "<group>"; };
+		50915BDE1E43B78A004AF735 /* SelectCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCountry.swift; sourceTree = "<group>"; };
+		50915BE01E43B7BF004AF735 /* YourGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourGender.swift; sourceTree = "<group>"; };
+		50915BE21E43B7EA004AF735 /* MyInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterests.swift; sourceTree = "<group>"; };
+		50ACB7281E47A784009D2271 /* InviteFriends.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteFriends.xib; sourceTree = "<group>"; };
+		50BC3DF51E59DE0300094668 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		50BC3DF81E59DF1600094668 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		50BC3E011E59E5C700094668 /* NameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
+		50BC3E051E59E86300094668 /* AboutYourself.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutYourself.xib; sourceTree = "<group>"; };
+		50BC3E071E59E8F200094668 /* MyInterestsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInterestsCell.xib; sourceTree = "<group>"; };
+		50BC3E091E59E92500094668 /* AddInterests.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddInterests.xib; sourceTree = "<group>"; };
+		50BC3E0B1E59EA1F00094668 /* InformationCreateProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationCreateProfile.xib; sourceTree = "<group>"; };
+		50BC3E0D1E59EAC100094668 /* YourGenderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YourGenderCell.xib; sourceTree = "<group>"; };
+		50BC3E0F1E59EB4300094668 /* YourBirthdayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YourBirthdayCell.xib; sourceTree = "<group>"; };
+		50ED03161E7D4DE20021EABB /* SelectPicture.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPicture.xib; sourceTree = "<group>"; };
+		50ED03181E81715B0021EABB /* CreateProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateProfile.xib; sourceTree = "<group>"; };
+		744AC9841E48ECCB0031DBAE /* AchievementsScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementsScreen.xib; sourceTree = "<group>"; };
+		744AC9861E48ECD90031DBAE /* AchievementsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsScreen.swift; sourceTree = "<group>"; };
+		74977A721E40E26E00E32247 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		74977A751E40E65300E32247 /* KeyboardShift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardShift.swift; sourceTree = "<group>"; };
+		749A2E831E3B60F200BBCF97 /* Doozyrama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doozyrama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749A2E861E3B60F200BBCF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		749A2E881E3B60F200BBCF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		749A2E8B1E3B60F200BBCF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		749A2E8D1E3B60F200BBCF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749A2E901E3B60F200BBCF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		749A2E921E3B60F200BBCF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749A2E991E3B644200BBCF97 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		749A2E9B1E3B656700BBCF97 /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		749A2E9D1E3B658000BBCF97 /* StartScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartScreen.xib; sourceTree = "<group>"; };
+		74ED83631E44D6360024CA99 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		74ED83651E474B4E0024CA99 /* MapScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapScreen.xib; sourceTree = "<group>"; };
+		74ED83671E474F2B0024CA99 /* MapScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		74ED83691E4758390024CA99 /* Notifications.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Notifications.xib; sourceTree = "<group>"; };
+		74ED836B1E475AD40024CA99 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		74ED836D1E475D5A0024CA99 /* MeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeScreen.swift; sourceTree = "<group>"; };
+		74ED836F1E475D680024CA99 /* MeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50EF5A701E3B52010061077C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A841E3B52010061077C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A8F1E3B52010061077C /* Frameworks */ = {
+		749A2E801E3B60F200BBCF97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +129,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50EF5A6A1E3B52010061077C = {
+		5051232B1E4F6B71008228A0 /* SecondaryScreens */ = {
 			isa = PBXGroup;
 			children = (
-				50EF5A751E3B52010061077C /* Doozyrama */,
-				50EF5A8A1E3B52010061077C /* DoozyramaTests */,
-				50EF5A951E3B52010061077C /* DoozyramaUITests */,
-				50EF5A741E3B52010061077C /* Products */,
+				5051232C1E4F6C09008228A0 /* ActivitiesContacts.xib */,
+				5051232F1E506C4B008228A0 /* ActivitiesContacts.swift */,
+				505123311E506FA7008228A0 /* HeroFriend.xib */,
+				505123331E50771C008228A0 /* HeroFriend.swift */,
+				505123371E5369C3008228A0 /* MyFriendsInvite.xib */,
+				505123391E536F25008228A0 /* MyFriendsInvite.swift */,
+				5051233B1E53740D008228A0 /* MySubscription.xib */,
+				5051233D1E5374C3008228A0 /* MySubscription.swift */,
+				5051233F1E537666008228A0 /* MyFollowers.xib */,
+				505123411E5376EC008228A0 /* MyFollowers.swift */,
+			);
+			name = SecondaryScreens;
+			sourceTree = "<group>";
+		};
+		5051232E1E4F6C1F008228A0 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				50BC3DFA1E59E04900094668 /* CellsCreateProfile */,
+				500602F61E40DC20001057AF /* CreateProfile.swift */,
+				50ED03181E81715B0021EABB /* CreateProfile.xib */,
+				500D06F41E43AA9400C03870 /* InviteFriends.swift */,
+				50ACB7281E47A784009D2271 /* InviteFriends.xib */,
+				50915BE21E43B7EA004AF735 /* MyInterests.swift */,
+				505123291E4B7712008228A0 /* MyInterests.xib */,
+				50915BDE1E43B78A004AF735 /* SelectCountry.swift */,
+				505123271E4B73CB008228A0 /* SelectCountry.xib */,
+				50915BE01E43B7BF004AF735 /* YourGender.swift */,
+				505123251E4B6EC9008228A0 /* YourGender.xib */,
+			);
+			name = LoginScreen;
+			sourceTree = "<group>";
+		};
+		50BC3DF41E59DDED00094668 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				50BC3DF51E59DE0300094668 /* Colors.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		50BC3DF71E59DEF300094668 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50BC3DF81E59DF1600094668 /* UIColorExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		50BC3DFA1E59E04900094668 /* CellsCreateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				50BC3E051E59E86300094668 /* AboutYourself.xib */,
+				50BC3E091E59E92500094668 /* AddInterests.xib */,
+				50BC3E0B1E59EA1F00094668 /* InformationCreateProfile.xib */,
+				50BC3E071E59E8F200094668 /* MyInterestsCell.xib */,
+				50BC3E011E59E5C700094668 /* NameCell.xib */,
+				50BC3E0F1E59EB4300094668 /* YourBirthdayCell.xib */,
+				50BC3E0D1E59EAC100094668 /* YourGenderCell.xib */,
+				506616C01E69464400D1F297 /* CreateProfileCell.swift */,
+				50ED03161E7D4DE20021EABB /* SelectPicture.xib */,
+			);
+			name = CellsCreateProfile;
+			sourceTree = "<group>";
+		};
+		74977A741E40E5AB00E32247 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				74977A721E40E26E00E32247 /* TextField.swift */,
+				74977A751E40E65300E32247 /* KeyboardShift.swift */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		749A2E7A1E3B60F100BBCF97 = {
+			isa = PBXGroup;
+			children = (
+				749A2E851E3B60F200BBCF97 /* Doozyrama */,
+				749A2E841E3B60F200BBCF97 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		50EF5A741E3B52010061077C /* Products */ = {
+		749A2E841E3B60F200BBCF97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50EF5A731E3B52010061077C /* Doozyrama.app */,
-				50EF5A871E3B52010061077C /* DoozyramaTests.xctest */,
-				50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */,
+				749A2E831E3B60F200BBCF97 /* Doozyrama.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50EF5A751E3B52010061077C /* Doozyrama */ = {
+		749A2E851E3B60F200BBCF97 /* Doozyrama */ = {
 			isa = PBXGroup;
 			children = (
-				50EF5A761E3B52010061077C /* AppDelegate.swift */,
-				50EF5A781E3B52010061077C /* ViewController.swift */,
-				50EF5A7A1E3B52010061077C /* Main.storyboard */,
-				50EF5A7D1E3B52010061077C /* Assets.xcassets */,
-				50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */,
-				50EF5A821E3B52010061077C /* Info.plist */,
+				749A2E861E3B60F200BBCF97 /* AppDelegate.swift */,
+				749A2E8D1E3B60F200BBCF97 /* Assets.xcassets */,
+				749A2E921E3B60F200BBCF97 /* Info.plist */,
+				749A2E8F1E3B60F200BBCF97 /* LaunchScreen.storyboard */,
+				749A2E8A1E3B60F200BBCF97 /* Main.storyboard */,
+				749A2E981E3B629300BBCF97 /* Screens */,
+				74977A741E40E5AB00E32247 /* TextField */,
+				749A2E881E3B60F200BBCF97 /* ViewController.swift */,
+				74ED83621E44D5FF0024CA99 /* ViewControllers */,
+				50BC3DF41E59DDED00094668 /* Details */,
+				50BC3DF71E59DEF300094668 /* Extensions */,
 			);
 			path = Doozyrama;
 			sourceTree = "<group>";
 		};
-		50EF5A8A1E3B52010061077C /* DoozyramaTests */ = {
+		749A2E981E3B629300BBCF97 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				50EF5A8B1E3B52010061077C /* DoozyramaTests.swift */,
-				50EF5A8D1E3B52010061077C /* Info.plist */,
+				744AC9861E48ECD90031DBAE /* AchievementsScreen.swift */,
+				744AC9841E48ECCB0031DBAE /* AchievementsScreen.xib */,
+				501DDF911E4A0A10003BF0D2 /* ActivitiesNearby.swift */,
+				501DDF8F1E4A09F6003BF0D2 /* ActivitiesNearby.xib */,
+				74ED83671E474F2B0024CA99 /* MapScreen.swift */,
+				74ED83651E474B4E0024CA99 /* MapScreen.xib */,
+				74ED836D1E475D5A0024CA99 /* MeScreen.swift */,
+				74ED836F1E475D680024CA99 /* MeScreen.xib */,
+				74ED836B1E475AD40024CA99 /* Notifications.swift */,
+				74ED83691E4758390024CA99 /* Notifications.xib */,
+				749A2E9B1E3B656700BBCF97 /* StartScreen.swift */,
+				749A2E9D1E3B658000BBCF97 /* StartScreen.xib */,
+				5051232E1E4F6C1F008228A0 /* LoginScreen */,
+				5051232B1E4F6B71008228A0 /* SecondaryScreens */,
 			);
-			path = DoozyramaTests;
+			name = Screens;
 			sourceTree = "<group>";
 		};
-		50EF5A951E3B52010061077C /* DoozyramaUITests */ = {
+		74ED83621E44D5FF0024CA99 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				50EF5A961E3B52010061077C /* DoozyramaUITests.swift */,
-				50EF5A981E3B52020061077C /* Info.plist */,
+				749A2E991E3B644200BBCF97 /* Navigation.swift */,
+				74ED83631E44D6360024CA99 /* TabBarController.swift */,
 			);
-			path = DoozyramaUITests;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50EF5A721E3B52010061077C /* Doozyrama */ = {
+		749A2E821E3B60F200BBCF97 /* Doozyrama */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF5A9B1E3B52020061077C /* Build configuration list for PBXNativeTarget "Doozyrama" */;
+			buildConfigurationList = 749A2E951E3B60F200BBCF97 /* Build configuration list for PBXNativeTarget "Doozyrama" */;
 			buildPhases = (
-				50EF5A6F1E3B52010061077C /* Sources */,
-				50EF5A701E3B52010061077C /* Frameworks */,
-				50EF5A711E3B52010061077C /* Resources */,
+				749A2E7F1E3B60F200BBCF97 /* Sources */,
+				749A2E801E3B60F200BBCF97 /* Frameworks */,
+				749A2E811E3B60F200BBCF97 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +286,26 @@
 			);
 			name = Doozyrama;
 			productName = Doozyrama;
-			productReference = 50EF5A731E3B52010061077C /* Doozyrama.app */;
+			productReference = 749A2E831E3B60F200BBCF97 /* Doozyrama.app */;
 			productType = "com.apple.product-type.application";
-		};
-		50EF5A861E3B52010061077C /* DoozyramaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF5A9E1E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaTests" */;
-			buildPhases = (
-				50EF5A831E3B52010061077C /* Sources */,
-				50EF5A841E3B52010061077C /* Frameworks */,
-				50EF5A851E3B52010061077C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50EF5A891E3B52010061077C /* PBXTargetDependency */,
-			);
-			name = DoozyramaTests;
-			productName = DoozyramaTests;
-			productReference = 50EF5A871E3B52010061077C /* DoozyramaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		50EF5A911E3B52010061077C /* DoozyramaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF5AA11E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaUITests" */;
-			buildPhases = (
-				50EF5A8E1E3B52010061077C /* Sources */,
-				50EF5A8F1E3B52010061077C /* Frameworks */,
-				50EF5A901E3B52010061077C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50EF5A941E3B52010061077C /* PBXTargetDependency */,
-			);
-			name = DoozyramaUITests;
-			productName = DoozyramaUITests;
-			productReference = 50EF5A921E3B52010061077C /* DoozyramaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50EF5A6B1E3B52010061077C /* Project object */ = {
+		749A2E7B1E3B60F100BBCF97 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Max;
+				ORGANIZATIONNAME = Mikhail;
 				TargetAttributes = {
-					50EF5A721E3B52010061077C = {
+					749A2E821E3B60F200BBCF97 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-					};
-					50EF5A861E3B52010061077C = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 50EF5A721E3B52010061077C;
-					};
-					50EF5A911E3B52010061077C = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 50EF5A721E3B52010061077C;
 					};
 				};
 			};
-			buildConfigurationList = 50EF5A6E1E3B52010061077C /* Build configuration list for PBXProject "Doozyrama" */;
+			buildConfigurationList = 749A2E7E1E3B60F100BBCF97 /* Build configuration list for PBXProject "Doozyrama" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,99 +313,101 @@
 				en,
 				Base,
 			);
-			mainGroup = 50EF5A6A1E3B52010061077C;
-			productRefGroup = 50EF5A741E3B52010061077C /* Products */;
+			mainGroup = 749A2E7A1E3B60F100BBCF97;
+			productRefGroup = 749A2E841E3B60F200BBCF97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50EF5A721E3B52010061077C /* Doozyrama */,
-				50EF5A861E3B52010061077C /* DoozyramaTests */,
-				50EF5A911E3B52010061077C /* DoozyramaUITests */,
+				749A2E821E3B60F200BBCF97 /* Doozyrama */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50EF5A711E3B52010061077C /* Resources */ = {
+		749A2E811E3B60F200BBCF97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50EF5A811E3B52010061077C /* LaunchScreen.storyboard in Resources */,
-				50EF5A7E1E3B52010061077C /* Assets.xcassets in Resources */,
-				50EF5A7C1E3B52010061077C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A851E3B52010061077C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A901E3B52010061077C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				50BC3E101E59EB4300094668 /* YourBirthdayCell.xib in Resources */,
+				505123261E4B6EC9008228A0 /* YourGender.xib in Resources */,
+				50ACB7291E47A784009D2271 /* InviteFriends.xib in Resources */,
+				50BC3E061E59E86300094668 /* AboutYourself.xib in Resources */,
+				50BC3E0C1E59EA1F00094668 /* InformationCreateProfile.xib in Resources */,
+				749A2E911E3B60F200BBCF97 /* LaunchScreen.storyboard in Resources */,
+				74ED836A1E4758390024CA99 /* Notifications.xib in Resources */,
+				50BC3E021E59E5C700094668 /* NameCell.xib in Resources */,
+				505123381E5369C3008228A0 /* MyFriendsInvite.xib in Resources */,
+				505123321E506FA7008228A0 /* HeroFriend.xib in Resources */,
+				50BC3E0E1E59EAC100094668 /* YourGenderCell.xib in Resources */,
+				50ED03191E81715B0021EABB /* CreateProfile.xib in Resources */,
+				749A2E8E1E3B60F200BBCF97 /* Assets.xcassets in Resources */,
+				505123281E4B73CB008228A0 /* SelectCountry.xib in Resources */,
+				50BC3E0A1E59E92500094668 /* AddInterests.xib in Resources */,
+				744AC9851E48ECCB0031DBAE /* AchievementsScreen.xib in Resources */,
+				749A2E9E1E3B658000BBCF97 /* StartScreen.xib in Resources */,
+				50BC3E081E59E8F200094668 /* MyInterestsCell.xib in Resources */,
+				505123401E537666008228A0 /* MyFollowers.xib in Resources */,
+				749A2E8C1E3B60F200BBCF97 /* Main.storyboard in Resources */,
+				74ED83661E474B4E0024CA99 /* MapScreen.xib in Resources */,
+				50ED03171E7D4DE20021EABB /* SelectPicture.xib in Resources */,
+				501DDF901E4A09F6003BF0D2 /* ActivitiesNearby.xib in Resources */,
+				5051233C1E53740D008228A0 /* MySubscription.xib in Resources */,
+				5051232A1E4B7712008228A0 /* MyInterests.xib in Resources */,
+				5051232D1E4F6C09008228A0 /* ActivitiesContacts.xib in Resources */,
+				74ED83701E475D680024CA99 /* MeScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50EF5A6F1E3B52010061077C /* Sources */ = {
+		749A2E7F1E3B60F200BBCF97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50EF5A791E3B52010061077C /* ViewController.swift in Sources */,
-				50EF5A771E3B52010061077C /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A831E3B52010061077C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50EF5A8C1E3B52010061077C /* DoozyramaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50EF5A8E1E3B52010061077C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50EF5A971E3B52010061077C /* DoozyramaUITests.swift in Sources */,
+				500D06F51E43AA9400C03870 /* InviteFriends.swift in Sources */,
+				505123341E50771C008228A0 /* HeroFriend.swift in Sources */,
+				74977A761E40E65300E32247 /* KeyboardShift.swift in Sources */,
+				74ED836C1E475AD40024CA99 /* Notifications.swift in Sources */,
+				749A2E9A1E3B644200BBCF97 /* Navigation.swift in Sources */,
+				505123421E5376EC008228A0 /* MyFollowers.swift in Sources */,
+				50915BE31E43B7EA004AF735 /* MyInterests.swift in Sources */,
+				744AC9871E48ECD90031DBAE /* AchievementsScreen.swift in Sources */,
+				501DDF921E4A0A10003BF0D2 /* ActivitiesNearby.swift in Sources */,
+				50915BE11E43B7BF004AF735 /* YourGender.swift in Sources */,
+				74ED83641E44D6360024CA99 /* TabBarController.swift in Sources */,
+				74ED83681E474F2B0024CA99 /* MapScreen.swift in Sources */,
+				749A2E891E3B60F200BBCF97 /* ViewController.swift in Sources */,
+				50BC3DF61E59DE0300094668 /* Colors.swift in Sources */,
+				500602F71E40DC20001057AF /* CreateProfile.swift in Sources */,
+				50BC3DF91E59DF1600094668 /* UIColorExtensions.swift in Sources */,
+				74977A731E40E26E00E32247 /* TextField.swift in Sources */,
+				749A2E9C1E3B656700BBCF97 /* StartScreen.swift in Sources */,
+				50915BDF1E43B78A004AF735 /* SelectCountry.swift in Sources */,
+				5051233A1E536F25008228A0 /* MyFriendsInvite.swift in Sources */,
+				506616C11E69464400D1F297 /* CreateProfileCell.swift in Sources */,
+				505123301E506C4B008228A0 /* ActivitiesContacts.swift in Sources */,
+				749A2E871E3B60F200BBCF97 /* AppDelegate.swift in Sources */,
+				5051233E1E5374C3008228A0 /* MySubscription.swift in Sources */,
+				74ED836E1E475D5A0024CA99 /* MeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		50EF5A891E3B52010061077C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50EF5A721E3B52010061077C /* Doozyrama */;
-			targetProxy = 50EF5A881E3B52010061077C /* PBXContainerItemProxy */;
-		};
-		50EF5A941E3B52010061077C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50EF5A721E3B52010061077C /* Doozyrama */;
-			targetProxy = 50EF5A931E3B52010061077C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		50EF5A7A1E3B52010061077C /* Main.storyboard */ = {
+		749A2E8A1E3B60F200BBCF97 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50EF5A7B1E3B52010061077C /* Base */,
+				749A2E8B1E3B60F200BBCF97 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		50EF5A7F1E3B52010061077C /* LaunchScreen.storyboard */ = {
+		749A2E8F1E3B60F200BBCF97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50EF5A801E3B52010061077C /* Base */,
+				749A2E901E3B60F200BBCF97 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +415,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		50EF5A991E3B52020061077C /* Debug */ = {
+		749A2E931E3B60F200BBCF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		50EF5A9A1E3B52020061077C /* Release */ = {
+		749A2E941E3B60F200BBCF97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,121 +506,52 @@
 			};
 			name = Release;
 		};
-		50EF5A9C1E3B52020061077C /* Debug */ = {
+		749A2E961E3B60F200BBCF97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Doozyrama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Doozyrama";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.sample.com.Doozyrama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		50EF5A9D1E3B52020061077C /* Release */ = {
+		749A2E971E3B60F200BBCF97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Doozyrama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Doozyrama";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.sample.com.Doozyrama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		50EF5A9F1E3B52020061077C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DoozyramaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doozyrama.app/Doozyrama";
-			};
-			name = Debug;
-		};
-		50EF5AA01E3B52020061077C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DoozyramaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doozyrama.app/Doozyrama";
-			};
-			name = Release;
-		};
-		50EF5AA21E3B52020061077C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = DoozyramaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Doozyrama;
-			};
-			name = Debug;
-		};
-		50EF5AA31E3B52020061077C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = DoozyramaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.DoozyramaUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Doozyrama;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50EF5A6E1E3B52010061077C /* Build configuration list for PBXProject "Doozyrama" */ = {
+		749A2E7E1E3B60F100BBCF97 /* Build configuration list for PBXProject "Doozyrama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50EF5A991E3B52020061077C /* Debug */,
-				50EF5A9A1E3B52020061077C /* Release */,
+				749A2E931E3B60F200BBCF97 /* Debug */,
+				749A2E941E3B60F200BBCF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EF5A9B1E3B52020061077C /* Build configuration list for PBXNativeTarget "Doozyrama" */ = {
+		749A2E951E3B60F200BBCF97 /* Build configuration list for PBXNativeTarget "Doozyrama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50EF5A9C1E3B52020061077C /* Debug */,
-				50EF5A9D1E3B52020061077C /* Release */,
+				749A2E961E3B60F200BBCF97 /* Debug */,
+				749A2E971E3B60F200BBCF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		50EF5A9E1E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50EF5A9F1E3B52020061077C /* Debug */,
-				50EF5AA01E3B52020061077C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		50EF5AA11E3B52020061077C /* Build configuration list for PBXNativeTarget "DoozyramaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50EF5AA21E3B52020061077C /* Debug */,
-				50EF5AA31E3B52020061077C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50EF5A6B1E3B52010061077C /* Project object */;
+	rootObject = 749A2E7B1E3B60F100BBCF97 /* Project object */;
 }

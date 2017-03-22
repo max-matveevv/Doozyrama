@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Notifications" customModule="Doozyrama" customModuleProvider="target">
+            <connections>
+                <outlet property="labelNotifications" destination="pAG-M8-3tb" id="cXe-E8-gat"/>
+                <outlet property="notificationsTableView" destination="py0-T3-KKm" id="v3i-aO-ntB"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Hlq-g6-PVr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDR-uY-PyZ">
+                    <frame key="frameInset" minX="45" minY="38" width="284" height="585"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="py0-T3-KKm">
+                            <frame key="frameInset" minX="13" minY="254" width="240" height="128"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jFO-5J-ttE">
+                            <frame key="frameInset" minX="27" width="240" height="128"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAG-M8-3tb">
+                                    <frame key="frameInset" minX="99" minY="46" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Csp-Qa-0iY"/>
+                                <constraint firstItem="pAG-M8-3tb" firstAttribute="centerY" secondItem="jFO-5J-ttE" secondAttribute="centerY" id="D9g-JU-igR"/>
+                                <constraint firstItem="pAG-M8-3tb" firstAttribute="centerX" secondItem="jFO-5J-ttE" secondAttribute="centerX" id="xDf-Ek-s68"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="py0-T3-KKm" firstAttribute="top" secondItem="jFO-5J-ttE" secondAttribute="bottom" id="7Gd-lu-HgI"/>
+                        <constraint firstAttribute="bottom" secondItem="py0-T3-KKm" secondAttribute="bottom" id="8wc-AA-8bV"/>
+                        <constraint firstAttribute="trailing" secondItem="jFO-5J-ttE" secondAttribute="trailing" id="BVd-Kj-1VH"/>
+                        <constraint firstItem="py0-T3-KKm" firstAttribute="leading" secondItem="gDR-uY-PyZ" secondAttribute="leading" id="Lkq-NB-JBc"/>
+                        <constraint firstItem="jFO-5J-ttE" firstAttribute="leading" secondItem="gDR-uY-PyZ" secondAttribute="leading" id="Vy4-jv-glK"/>
+                        <constraint firstItem="jFO-5J-ttE" firstAttribute="top" secondItem="gDR-uY-PyZ" secondAttribute="top" id="tCy-dK-DP6"/>
+                        <constraint firstAttribute="trailing" secondItem="py0-T3-KKm" secondAttribute="trailing" id="z0O-Nv-zKT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.41960784313725491" green="0.86274509803921573" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gDR-uY-PyZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="H0M-KL-Hqw"/>
+                <constraint firstAttribute="trailing" secondItem="gDR-uY-PyZ" secondAttribute="trailing" id="JxS-Hz-dUS"/>
+                <constraint firstAttribute="bottom" secondItem="gDR-uY-PyZ" secondAttribute="bottom" id="NzJ-Mq-azQ"/>
+                <constraint firstItem="gDR-uY-PyZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zyK-IP-7x6"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="84.5"/>
+        </view>
+    </objects>
+</document>
